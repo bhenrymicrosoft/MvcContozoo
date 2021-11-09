@@ -23,7 +23,7 @@ namespace MvcContozoo.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Animals()
         {
             return View();
         }
