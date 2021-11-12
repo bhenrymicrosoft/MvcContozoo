@@ -28,6 +28,11 @@ namespace MvcContozoo.Controllers
             return View();
         }
 
+        public IActionResult OpeningTimes()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
