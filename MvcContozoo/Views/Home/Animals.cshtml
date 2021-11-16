@@ -4,10 +4,11 @@
     ViewData["Title"] = "Animals";
 }
 
-<h1>Animals</h1>
+<h1>Meet Our Animals</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    @*<a asp-action="Create">Create New</a>*@
+    Here is a list of all our current residents. Feel free to visit them during their active hours and bring their favourite snack to get on their good side too!
 </p>
 <table class="table">
     <thead>
@@ -54,11 +55,11 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Notes)
             </td>
-            <td>
+            @*<td>
                 @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
+            </td>*@
         </tr>
 }
     </tbody>
